@@ -24,9 +24,13 @@ spec:
         - name: application-name
           value: microsweeper-appservice
         - name: dependency-git-url
-          value: https://github.com/GITHUB_USER_ID/common-java-dependencies
+          value: https://github.com/Conan-Kudo/rh-mobb-common-java-dependencies
+        - name: dependency-folder-name
+          value: common-java-dependencies
         - name: application-git-url
-          value: https://github.com/GITHUB_USER_ID/aro-workshop-app
+          value: https://github.com/Conan-Kudo/rh-mobb-rosa-workshop-app
+        - name: application-folder-name
+          value: rosa-workshop-app
         - name: dockerfile-path
           value: src/main/docker/Dockerfile.jvm
         - name: image-name
